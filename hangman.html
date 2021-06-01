@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    
+    <link rel="stylesheet" type="text/css" href="../bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="game.css">
+    <script src="hangmangame.js" defer></script>
+</head>
+<body>
+    <h1 class="text1">Welcome to Hangman game!!</h1>
+    <h2 class="text1">Use the alphabet below to guess the word based on clue.</h2><br>
+    <div id="buttonsHolder" style="text-align: center;"></div><br>
+    <div id="hint" style="color:indigo;font-size: xx-large;"></div>
+    <div id="blanks"></div><br>
+    <div id="lives" style="font-size: xx-large;color: yellow;"></div>
+    <div id="msg" style="font-size: xx-large;color:orangered;border-color: gold;"></div><br>
+    <button id="restart">Restart</button>
+</body>
+</html>
